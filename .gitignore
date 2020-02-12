@@ -29,5 +29,3 @@ hs_err_pid*
 *.iml
 .DS_Store
 log/
-
-!/src/main/resources/ApiDemos-debug.apk
