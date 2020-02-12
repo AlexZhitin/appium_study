@@ -1,6 +1,7 @@
-package Tests;
+package Tests.NativeAppsAutomation;
 
 
+import Tests.base;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
