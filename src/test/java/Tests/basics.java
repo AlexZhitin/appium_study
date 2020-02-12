@@ -17,5 +17,8 @@ public class basics extends base {
         driver.findElement(By.xpath("//android.widget.TextView[@text='3. Preference dependencies']")).click();
         driver.findElement(By.id("android:id/checkbox")).click();
         driver.findElement(By.xpath("(//android.widget.RelativeLayout)[2]")).click();
+        driver.findElementByClassName("android.widget.EditText").sendKeys("hello");
+        driver.findElementsByClassName("android.widget.Button").get(1).click();
+
     }
 }
