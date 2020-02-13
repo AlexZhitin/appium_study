@@ -1,6 +1,7 @@
 package Tests.NativeAppsAutomation;
 
 
+import Tests.PackageActivityBase;
 import Tests.base;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -12,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class basics extends base {
 
     public static void main(String[] args) throws MalformedURLException {
-        AndroidDriver<AndroidElement> driver = capabilities();
+        AndroidDriver<AndroidElement> driver = capabilities("real");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//android.widget.TextView[@text='Preference']")).click();
         driver.findElement(By.xpath("//android.widget.TextView[@text='3. Preference dependencies']")).click();

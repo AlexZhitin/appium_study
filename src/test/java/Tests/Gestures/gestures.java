@@ -21,7 +21,7 @@ import static java.time.Duration.ofSeconds;
 public class gestures extends base {
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
-        AndroidDriver<AndroidElement> driver = capabilities();
+        AndroidDriver<AndroidElement> driver = capabilities("real");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//android.widget.TextView[@text='Views']")).click();
         //Tap
