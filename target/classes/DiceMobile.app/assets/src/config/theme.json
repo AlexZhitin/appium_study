@@ -1,0 +1,21 @@
+{
+  "colors": {
+    "primary": "#d20a0a",
+    "secondary": "#FFFFFF",
+    "tertiary": "#0c0c0c",
+    "background": "#000000",
+    "splashBackground": "#ff080a"
+  },
+  "fonts": {
+    "primaryUrl": "https://imggaming.s3.amazonaws.com/dice-web/assets/fonts/poppins-bold-webfont",
+    "secondaryUrl": "https://imggaming.s3.amazonaws.com/dice-web/assets/fonts/Roboto-Regular",
+    "secondaryBoldUrl": "https://imggaming.s3.amazonaws.com/dice-web/assets/fonts/Roboto-Bold",
+    "tertiaryUrl": "https://imggaming.s3.amazonaws.com/dice-web/assets/fonts/robotocondensed-bold-webfont",
+    "primaryName": "KlavikaBoldCondensed",
+    "secondaryName": "Roboto-Medium",
+    "secondaryBoldName": "Roboto-Bold",
+    "tertiaryName": "RobotoCondensed-Bold"
+  },
+  "images": {},
+  "positions": {}
+}

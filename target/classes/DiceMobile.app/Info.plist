@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>To discover streaming and audio devices</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>DiceMobile Use location always</string>
+    <key>DTPlatformVersion</key>
+    <string>13.2</string>
+    <key>DTSDKBuild</key>
+    <string>17B102</string>
+    <key>CFBundleIcons~ipad</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+          <string>AppIcon76x76</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>NSSiriUsageDescription</key>
+    <string>DiceMobile Siri Usage</string>
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>DiceMobile Camera Usage</string>
+    <key>DCEChromecastId</key>
+    <string>EE9B3D69</string>
+    <key>CFBundleDisplayName</key>
+    <string>UFC ®</string>
+    <key>kTCCServiceMediaLibrary</key>
+    <string>DiceMobile MediaLibrary Usage</string>
+    <key>DTXcodeBuild</key>
+    <string>11C504</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>DiceMobile Reminder Usage</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.ufc.UFCTV</string>
+    <key>UIDeviceFamily</key>
+    <array>
+      <integer>1</integer>
+      <integer>2</integer>
+    </array>
+    <key>FacebookDisplayName</key>
+    <string>UFC ®</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>fbapi</string>
+      <string>fb-messenger-share-api</string>
+      <string>fbauth2</string>
+      <string>fbshareextension</string>
+    </array>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleIcons</key>
+    <dict>
+      <key>CFBundlePrimaryIcon</key>
+      <dict>
+        <key>CFBundleIconFiles</key>
+        <array>
+          <string>AppIcon60x60</string>
+        </array>
+        <key>CFBundleIconName</key>
+        <string>AppIcon</string>
+      </dict>
+    </dict>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+      <string>iPhoneOS</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true/>
+    <key>ITSAppUsesNonExemptEncryption</key>
+    <false/>
+    <key>NSMotionUsageDescription</key>
+    <string>DiceMobile Motion Usage</string>
+    <key>MinimumOSVersion</key>
+    <string>11.2</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>DiceMobile BluetoothPeripheral</string>
+    <key>NSVideoSubscriberAccountUsageDescription</key>
+    <string>DiceMobile Video Subscribe Usage</string>
+    <key>CFBundleName</key>
+    <string>DiceMobile</string>
+    <key>CFBundleShortVersionString</key>
+    <string>13.0.0</string>
+    <key>UIAppFonts</key>
+    <array>
+      <string>KlavikaBoldCondensed.ttf</string>
+      <string>Roboto-Medium.ttf</string>
+      <string>Roboto-Bold.ttf</string>
+      <string>RobotoCondensed-Bold.ttf</string>
+    </array>
+    <key>CFBundleExecutable</key>
+    <string>DiceMobile</string>
+    <key>UIBackgroundModes</key>
+    <array>
+      <string>audio</string>
+      <string>remote-notification</string>
+    </array>
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>arm64</string>
+    </array>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+      <string>UIInterfaceOrientationLandscapeLeft</string>
+      <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>DiceMobile Music Usage</string>
+    <key>FacebookAppID</key>
+    <string>1720153748235287</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>DiceMobile Speech Recognition Usage</string>
+    <key>NSLocationUsageDescription</key>
+    <string>DiceMobile Location Updates</string>
+    <key>BuildMachineOSBuild</key>
+    <string>18G2022</string>
+    <key>DTPlatformName</key>
+    <string>iphoneos</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>DiceMobile Calendar Usage</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>DiceMobile Microphone Usage</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>DiceMobile WhenInUse Location</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>ufcfightpass</string>
+          <string>fb1720153748235287</string>
+        </array>
+      </dict>
+    </array>
+    <key>DTSDKName</key>
+    <string>iphoneos13.2</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true/>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>localhost</key>
+        <dict>
+          <key>NSExceptionAllowsInsecureHTTPLoads</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+    <key>DTPlatformBuild</key>
+    <string>17B102</string>
+    <key>NSContactsUsageDescription</key>
+    <string>DiceMobile Contact fetch</string>
+    <key>DTXcode</key>
+    <string>1130</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>DiceMobile PhotoLibrary Usage</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>DTAppStoreToolsBuild</key>
+    <string>11C504</string>
+  </dict>
+</plist>

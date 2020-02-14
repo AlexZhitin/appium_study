@@ -1,0 +1,241 @@
+{
+  "allowSelfregistration": true,
+  "realm": "dce.ufc",
+  "realmFullName": "UFC Fightpass",
+  "signupWithConsent": true,
+  "showLicencesOnSignup": true,
+  "signupWithCredentials": false,
+  "hasVod": true,
+  "hasLive": true,
+  "hasDvr": true,
+  "allowSelfRegistration": true,
+  "requiresConfirmation": false,
+  "compulsoryTrial": true,
+  "showWelcomeScreen": false,
+  "hasVouchers": true,
+  "enabled": true,
+  "vpnAllowed": false,
+  "guestsAllowed": true,
+  "canAdminObtainPasswordResetTokens": false,
+  "settings": {
+    "REDICRECT_ON_SPLASH_SCREEN_URL": "https://welcome.ufcfightpass.com/region/row",
+    "LANDING_BG": "https://imggaming.s3.amazonaws.com/dice-web/assets/dce.ufc/landing_bg.png",
+    "SPLASH_BACKGROUND_COLOR": "#ff080a",
+    "POSTER_THUMBNAIL": "https://static.diceplatform.com/prod/original/dce.ufc/settings/dce.ufc_-_Poster_Thumbnail.THQUU.png?ts=1580397138",
+    "TERTIARY_COLOR": "#0c0c0c",
+    "LOGO_LONG_FORM": "https://static.diceplatform.com/prod/original/dce.ufc/settings/Custom_Preset_790_NEW.Kebm6.P0bTX.png?ts=1565765180",
+    "CARD_THUMBNAIL": "https://s3-eu-west-1.amazonaws.com/imggaming/dice-web/assets/dce.ufc/ufc-card-placeholder.jpg",
+    "MAIN_TITLE": "UFC Fight Pass",
+    "LANDING_BG_WEB": "https://s3-eu-west-1.amazonaws.com/imggaming/dice-web/assets/dce.ufc/UFC+Background.png",
+    "SECTION_THUMBNAIL": "https://static.diceplatform.com/prod/original/dce.ufc/settings/dce.ufc_-_Section_Thumbnail.IcyNX.png?ts=1580397138",
+    "SECONDARY_COLOR": "#FFFFFF",
+    "PRIMARY_COLOR": "#d20a0a",
+    "NAVBAR_POSITION": "TOP",
+    "HEADER_SCRIPT": "https://imggaming.s3.amazonaws.com/dice-web/assets/dce.ufc/head.js",
+    "SPLASH_SCREEN": "https://static.diceplatform.com/prod/original/dce.ufc/settings/UFC_splash.png?ts=1556882004",
+    "LOADER": "https://imggaming.s3.amazonaws.com/dice-web/assets/dce.ufc/loader.png",
+    "PLAYLIST_THUMBNAIL": "https://s3-eu-west-1.amazonaws.com/imggaming/dice-web/assets/dce.ufc/dice-ufc-playlist-placeholder.jpg",
+    "LOGO_WEB": "https://static.diceplatform.com/prod/original/dce.ufc/settings/UFC-FIGHT-PASS-Vertical_White.98nci.png?ts=1572349590",
+    "LOGO": "https://static.diceplatform.com/prod/original/dce.ufc/settings/UFC_logo_new.Blv1H.png?ts=1572607025",
+    "PRIMARY_FONT_URL": "https://s3-eu-west-1.amazonaws.com/imggaming/dice-web/assets/dce.ufc/KlavikaBoldCondensed",
+    "APP_ICON": "https://static.diceplatform.com/prod/original/dce.ufc/settings/UFC_app_icon.png?ts=1556881945"
+  },
+  "webSettings": {},
+  "iosSettings": {},
+  "androidSettings": {
+    "useDashLive": "false",
+    "useDashVod": "false"
+  },
+  "appSettings": {
+    "IOS": {
+      "appId": "1",
+      "displayName": "UFC Fight Pass"
+    },
+    "ANDROID": {
+      "appId": "1",
+      "displayName": "UFC Fight Pass"
+    },
+    "CHROMECAST": {
+      "appId": "EE9B3D69"
+    }
+  },
+  "hasPromoNotification": true,
+  "domains": [
+    "app.ufcfightpass.com",
+    "app.ufc.tv",
+    "app.fightpass.com",
+    "www.ufcfightpass.com",
+    "www.ufc.tv",
+    "www.fightpass.com",
+    "ufcfightpass.com",
+    "ufc.tv",
+    "fightpass.com",
+    "ufcfightpass.imggaming.com",
+    "ufcfightpass.imgdge.com",
+    "diceufcstage.neulion.com"
+  ],
+  "authenticationProviders": [
+    {
+      "name": "ID",
+      "fields": [
+        {
+          "invalidMessageLabel": "fullNameFieldIsInvalid",
+          "isRequiredMessageLabel": "fullNameFieldIsRequired",
+          "fieldLabel": "fullNameField",
+          "fieldName": "fullName",
+          "order": 0,
+          "required": true,
+          "serverValidated": true,
+          "fieldSize": "REGULAR",
+          "fieldType": "TEXT"
+        },
+        {
+          "invalidMessageLabel": "addressFieldIsInvalid",
+          "isRequiredMessageLabel": "addressFieldIsRequired",
+          "fieldLabel": "addressField",
+          "fieldName": "address",
+          "order": 1,
+          "required": true,
+          "serverValidated": true,
+          "fieldSize": "REGULAR",
+          "fieldType": "ADDRESS"
+        }
+      ],
+      "order": 0
+    }
+  ],
+  "realmLanguages": [
+    {
+      "language": "en",
+      "region": "US"
+    },
+    {
+      "language": "ru",
+      "region": "RU"
+    }
+  ],
+  "paymentProviders": [
+    {
+      "providerId": 8,
+      "paymentProviderId": 8,
+      "name": "ROKU_IAP",
+      "providerType": "ROKU_IAP",
+      "paymentProviderType": "ROKU_IAP",
+      "paymentProviderGroupType": "IAP",
+      "details": {},
+      "hasVouchers": false
+    },
+    {
+      "providerId": 16,
+      "paymentProviderId": 16,
+      "name": "MICROSOFT_IAP",
+      "providerType": "MICROSOFT_IAP",
+      "paymentProviderType": "MICROSOFT_IAP",
+      "paymentProviderGroupType": "IAP",
+      "details": {},
+      "hasVouchers": false
+    },
+    {
+      "providerId": 15,
+      "paymentProviderId": 15,
+      "name": "IMPORT_PLACEHOLDER",
+      "providerType": "IMPORT_PLACEHOLDER",
+      "paymentProviderType": "IMPORT_PLACEHOLDER",
+      "paymentProviderGroupType": "IMPORTED",
+      "details": {},
+      "hasVouchers": false
+    },
+    {
+      "providerId": 5,
+      "paymentProviderId": 5,
+      "name": "GOOGLE_IAP",
+      "providerType": "GOOGLE_IAP",
+      "paymentProviderType": "GOOGLE_IAP",
+      "paymentProviderGroupType": "IAP",
+      "details": {},
+      "hasVouchers": false
+    },
+    {
+      "providerId": 4,
+      "paymentProviderId": 4,
+      "name": "APPLE_IAP",
+      "providerType": "APPLE_IAP",
+      "paymentProviderType": "APPLE_IAP",
+      "paymentProviderGroupType": "IAP",
+      "details": {},
+      "hasVouchers": false
+    },
+    {
+      "providerId": 23,
+      "paymentProviderId": 23,
+      "name": "STRIPE_UFC",
+      "providerType": "STRIPE",
+      "paymentProviderType": "STRIPE",
+      "paymentProviderGroupType": "CREDIT_CARD",
+      "details": {
+        "testMode": "false",
+        "publishableKey": "pk_live_xSdbYHUak7oX0Rxo7JhH47Ny00TumCkoIb",
+        "statementDescriptor": "UFC",
+        "useScaAuthorization": "false",
+        "stripeCustomerConsolidationMode": "DISABLED"
+      },
+      "hasVouchers": true
+    },
+    {
+      "providerId": 10,
+      "paymentProviderId": 10,
+      "name": "PAYPAL",
+      "providerType": "PAYPAL",
+      "paymentProviderType": "PAYPAL",
+      "paymentProviderGroupType": "PAYPAL",
+      "details": {
+        "testMode": "false",
+        "publishableKey": "AY7RpnQvMeNJNwEFnnUjmoJI5d__TVaT9tax1zoBTotbbB-bXJhXWelxkpnoo6Gjxl5fm6xfiQfuW6tO"
+      },
+      "hasVouchers": false
+    },
+    {
+      "providerId": 14,
+      "paymentProviderId": 14,
+      "name": "AMAZON_IAP",
+      "providerType": "AMAZON_IAP",
+      "paymentProviderType": "AMAZON_IAP",
+      "paymentProviderGroupType": "IAP",
+      "details": {},
+      "hasVouchers": false
+    }
+  ],
+  "geoRestriction": {
+    "geoRestrictionType": "BLACKLIST",
+    "countries": [
+      "CU",
+      "IR",
+      "KP",
+      "LB",
+      "LY",
+      "SD",
+      "SO",
+      "SY"
+    ]
+  },
+  "marketingProviders": [],
+  "flagAtRegisterBasketIfNoFreeTrial": false,
+  "flagAtPayBasketIfNoFreeTrial": false,
+  "multiViewAllowed": true,
+  "hasEventSchedule": false,
+  "customizations": {
+    "fonts": {
+      "cardTitle": {
+        "scale": 1.1,
+        "weight": "bold"
+      }
+    }
+  },
+  "pinLoginEnabled": false,
+  "magicLinkLoginEnabled": false,
+  "selfRegistrationDeviceRestriction": {
+    "restrictionType": "BLACKLIST",
+    "elements": []
+  },
+  "checkoutFirstStep": "CREATE_ACCOUNT"
+}

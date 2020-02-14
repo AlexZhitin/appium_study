@@ -1,0 +1,6 @@
+{
+  "migrations": {
+    "reduxVersion": 3,
+    "mantainSession": true
+  }
+}
